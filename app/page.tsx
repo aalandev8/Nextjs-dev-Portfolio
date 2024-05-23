@@ -1,4 +1,4 @@
-import {Hero, Skills, Experiencie, AboutMe, MyProjects} from '@/app/_components'
+import {Hero, Skills, Experiencie, AboutMe, MyProjects, ContactMe} from '@/app/_components'
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <Experiencie />
       <AboutMe />
       <MyProjects />
+      <ContactMe />
     </>
   );
 }

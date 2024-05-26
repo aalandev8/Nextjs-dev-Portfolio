@@ -6,6 +6,7 @@ import Link from "next/link";
 
 export const Navbar = () => {
   const { isMobile } = useMediaQuery();
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -42,12 +43,14 @@ export const Navbar = () => {
       )}
       {!isMobile && (
         <div>
-          <button className="flex bg-black hover:bg-[#404040] text-white font-bold py-2 px-5 rounded mr-3 mt-1 active:bg-[#2e2e2e]">
-            Resume{" "}
-            <span className="ml-2 mt-0.5">
-              <DownloadSVG />
-            </span>
-          </button>
+          <a href="/files/FacundoDuqueCV.pdf" download>
+            <button className="flex bg-black hover:bg-[#404040] text-white font-bold py-2 px-5 rounded mr-3 mt-1 active:bg-[#2e2e2e]">
+              Resume{" "}
+              <span className="ml-2 mt-0.5">
+                <DownloadSVG />
+              </span>
+            </button>
+          </a>
         </div>
       )}
       {isMobile && isMenuOpen && (
@@ -77,12 +80,14 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="py-4">
-              <button className="bg-black hover:bg-[#404040] text-white font-bold py-2 px-4 rounded active:bg-white active:text-black">
-                <span className="flex items-center justify-center">
-                  <p className="mr-2">Resume</p>
-                  <DownloadSVG />
-                </span>
-              </button>
+              <a href="/files/FacundoDuqueCV.pdf" download>
+                <button className="bg-black hover:bg-[#404040] text-white font-bold py-2 px-4 rounded active:bg-white active:text-black">
+                  <span className="flex items-center justify-center">
+                    <p className="mr-2">Resume</p>
+                    <DownloadSVG />
+                  </span>
+                </button>
+              </a>
             </li>
           </ul>
         </div>

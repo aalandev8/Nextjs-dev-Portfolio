@@ -11,6 +11,8 @@
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "ethers": "^6.13.1",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"

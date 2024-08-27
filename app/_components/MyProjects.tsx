@@ -7,7 +7,7 @@ export const MyProjects = () => {
         <h2 className="text-4xl text-white mb-8">
           My <span className="font-bold">Projects</span>
         </h2>
-        <div className="flex justify-center text-left">
+        <div className="flex flex-col justify-center w-full text-left">
           <ProjectCard
             number={1}
             title="German Diaz PH - Photographer portfolio"
@@ -15,6 +15,14 @@ export const MyProjects = () => {
             image="/ProjectsPictures/germandiazph.com_.png"
             isReverse={false}
             href="https://germandiazph.com"
+          />
+          <ProjectCard
+          number={2}
+          title="AalanDEV - NFT Claim Page"
+          description="NFT minting page to claim my custom token on ETH and Polkadot. On this project i've created an smartcontract deployed on ETH and PolkadotJS API, once both collections on each Blockchain."
+          image="/ProjectsPictures/germandiazph.com_.png"
+          isReverse={true}
+          href="/"
           />
         </div>
       </div>

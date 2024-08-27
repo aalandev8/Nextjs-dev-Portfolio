@@ -18,8 +18,8 @@ export const MyProjects = () => {
           />
           <ProjectCard
           number={2}
-          title="AalanDEV - NFT Claim Page"
-          description="NFT minting page to claim my custom token on ETH and Polkadot. On this project i've created an smartcontract deployed on ETH and PolkadotJS API, once both collections on each Blockchain."
+          title="NFT Claim Page"
+          description="NFT minting page to claim my custom token 'Aalandev Token' on ETH and Polkadot. In this project, I created a smart contract deployed on ETH and PolkadotJS API, once both collections are on each Blockchain, they are manipulated from the frontend."
           image="/ProjectsPictures/germandiazph.com_.png"
           isReverse={true}
           href="/"

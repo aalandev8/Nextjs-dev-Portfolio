@@ -15,10 +15,9 @@ export const Hero = () => {
           Based in <span className="font-bold">Uruguay</span>
         </p>
         <p className="mt-2 text-lg text-gray-500">
-          I&#8217;m a versatile web developer passionate about both front-end
-          and back-end. <br></br> I bring creative ideas and technical solutions
+          I&#8217;m a versatile web developer passionate with web3. <br></br> I bring creative ideas and technical solutions
           to life, creating engaging user experiences and robust
-          functionalities.
+          functionalities . 
         </p>
         <div className="mt-4 flex justify-center lg:justify-normal space-x-4">
           <SocialBtn
